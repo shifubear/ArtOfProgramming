@@ -1,0 +1,27 @@
+1.1 Algorithms
+
+    Euclid's Algorithm:
+        Given two positive integers m and n, find their
+        greatest common divisor.
+        >>> [Find remainder.] Divide m by n and let r be the remainder.
+        >>> [Is it zero?] If r = 0, the algorithm terminates; n is the answer.
+        >>> [Interchange.] Set m <- n, n <- r, and go back to step E1.
+
+    The five features of an algorithm:
+        1. Finiteness.
+            An algorithm must always terminate after a finite number of steps.
+        2. Definiteness.
+            Each step of an algorithm must be precisely defined; the actions
+            to be carried out must be rigorously and unambiguously specified
+            for each case.
+        3. Input
+            An algorithm has zero or more inputs, i.e., quantities which are
+            given to it initially before the algorithm begins.
+        4. Output
+            An algorithm has one or more outputs, i.e., quantities which have
+            a specified relation to the inputs.
+        5. Effectiveness
+            An algorithm is also generally expected to be effective. All of the
+            operations to be performed in the algorithm must be sufficiently
+            basic that they can in principle be done exactly and in a finite
+            length of time by a man using pencil and paper.
